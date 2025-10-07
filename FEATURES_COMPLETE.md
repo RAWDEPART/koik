@@ -14,9 +14,9 @@ Role: Admin
 Employee ID: TMH-ADMIN-001
 Department: HR
 ```
-
+//donenaa
 ### How to Create New Employees
-1. Login as Admin
+1. Login as Admin and login as admin ankjernfiuehguyer fbrerfb henerfjoub34ub j
 2. Go to **Directory** page
 3. Click **"Add Employee"** button
 4. Fill in employee details:
