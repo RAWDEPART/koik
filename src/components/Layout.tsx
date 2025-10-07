@@ -162,10 +162,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           <div className="border-t border-gray-200 pt-4 flex items-center justify-between flex-wrap gap-2">
             <div>© {new Date().getFullYear()} Tech Mahindra Ltd. All Rights Reserved.</div>
             <div className="space-x-3">
-              <a className="hover:underline" href="#">Privacy Policy</a>
-              <a className="hover:underline" href="#">Terms of Use</a>
-              <a className="hover:underline" href="#">Contact HR</a>
-              <a className="hover:underline" href="#">IT Support</a>
+              <Link className="hover:underline" to="/privacy">Privacy Policy</Link>
+              <Link className="hover:underline" to="/terms">Terms of Use</Link>
+              <Link className="hover:underline" to="/support">Contact HR/IT Support</Link>
             </div>
           </div>
         </footer>

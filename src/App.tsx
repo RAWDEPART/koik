@@ -21,6 +21,9 @@ import HelpDeskPage from './pages/HelpDesk';
 import GoalsPage from './pages/Goals';
 import RealtimeOps from './pages/RealtimeOps';
 import Layout from './components/Layout';
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import TermsOfUse from './pages/TermsOfUse';
+import Support from './pages/Support';
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -207,6 +210,11 @@ function AppRoutes() {
           </ProtectedRoute>
         }
       />
+
+      {/* Public legal/support pages */}
+      <Route path="/privacy" element={<PrivacyPolicy />} />
+      <Route path="/terms" element={<TermsOfUse />} />
+      <Route path="/support" element={<Support />} />
 
       <Route path="/" element={<Navigate to="/dashboard" replace />} />
       <Route path="*" element={<Navigate to="/dashboard" replace />} />
